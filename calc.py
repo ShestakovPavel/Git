@@ -2,7 +2,8 @@
 
 
 def sum(a,b):
-	pass
+	a, b = int(a), int(b)
+	return a + b
 
 def sub(a,b):
 	pass
