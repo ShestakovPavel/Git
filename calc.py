@@ -6,10 +6,12 @@ def sum(a,b):
 	return a + b
 
 def sub(a,b):
-	pass
+	a, b = int(a), int(b)
+	return a - b
 
 def multipli(a,b):
-	pass
+	a, b = int(a), int(b)
+	return a * b
 
 def division(a,b):
 	pass
